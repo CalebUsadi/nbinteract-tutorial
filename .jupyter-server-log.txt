@@ -172,3 +172,38 @@ TermSocket.open: Opened 1
 [W 15:44:31.586 NotebookApp] Notebook Untitled.ipynb is not trusted
 [I 15:44:31.651 NotebookApp] Starting buffering for 90349842-ddf9-4abe-ae2f-679979cb4e16:20378e5b9f954294b5049248cfa00899
 [I 15:44:35.824 NotebookApp] Kernel shutdown: 90349842-ddf9-4abe-ae2f-679979cb4e16
+[I 16:01:28.042 NotebookApp] Writing notebook server cookie secret to /srv/conda/envs/notebook/share/jupyter/runtime/notebook_cookie_secret
+[W 2021-03-25 16:01:29.110 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-03-25 16:01:29.110 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-03-25 16:01:29.110 LabApp] 'base_url' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-03-25 16:01:29.110 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-03-25 16:01:29.111 LabApp] 'trust_xheaders' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-03-25 16:01:29.111 LabApp] 'allow_origin' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-03-25 16:01:29.111 LabApp] 'allow_origin_pat' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-03-25 16:01:29.111 LabApp] 'extra_template_paths' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2021-03-25 16:01:29.111 LabApp] 'jinja_template_vars' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2021-03-25 16:01:29.111 LabApp] 'shutdown_no_activity_timeout' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-03-25 16:01:29.111 LabApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-03-25 16:01:29.111 LabApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2021-03-25 16:01:29.119 LabApp] JupyterLab extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/jupyterlab
+[I 2021-03-25 16:01:29.120 LabApp] JupyterLab application directory is /srv/conda/envs/notebook/share/jupyter/lab
+[I 16:01:29.132 NotebookApp] nteract extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/nteract_on_jupyter
+[I 16:01:29.135 NotebookApp] Will shut down after 600 seconds with no kernels or terminals.
+[I 16:01:29.136 NotebookApp] Serving notebooks from local directory: /home/jovyan
+[I 16:01:29.136 NotebookApp] Jupyter Notebook 6.2.0 is running at:
+[I 16:01:29.136 NotebookApp] http://jupyter-calebusadi-2dnbinteract-2dtutorial-2dljv8dwd8:8888/user/calebusadi-nbinteract-tutorial-ljv8dwd8/?token=...
+[I 16:01:29.136 NotebookApp]  or http://127.0.0.1:8888/user/calebusadi-nbinteract-tutorial-ljv8dwd8/?token=...
+[I 16:01:29.136 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 16:01:29.141 NotebookApp] No web browser found: could not locate runnable browser.
+[I 16:01:32.510 NotebookApp] 302 GET /user/calebusadi-nbinteract-tutorial-ljv8dwd8/ (10.0.51.78) 0.980000ms
+[I 16:01:33.235 NotebookApp] 302 GET /user/calebusadi-nbinteract-tutorial-ljv8dwd8/?token=ZTolhR0rR9WgaQxtnYtpdg (65.183.154.21) 0.980000ms
+[I 16:01:51.951 NotebookApp] Creating new notebook in 
+[I 16:01:52.013 NotebookApp] Writing notebook-signing key to /srv/conda/envs/notebook/share/jupyter/notebook_secret
+[I 16:01:55.070 NotebookApp] Kernel started: 9c668319-1362-43c7-8096-b2878c1cebc8, name: julia-1.6
+[I 16:01:55.071 NotebookApp] Culling kernels with idle durations > 600 seconds at 60 second intervals ...
+[I 16:01:55.071 NotebookApp] Culling kernels even with connected clients
+Starting kernel event loops.
+[I 16:02:07.018 NotebookApp] Adapting from protocol version 5.0 (kernel 9c668319-1362-43c7-8096-b2878c1cebc8) to 5.3 (client).
+[I 16:02:11.504 NotebookApp] New terminal with automatic name: 1
+TermSocket.open: 1
+TermSocket.open: Opened 1
