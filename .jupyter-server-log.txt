@@ -26,3 +26,132 @@
 [I 15:21:08.481 NotebookApp] New terminal with automatic name: 1
 TermSocket.open: 1
 TermSocket.open: Opened 1
+[I 15:29:06.695 NotebookApp] Creating new notebook in 
+[E 15:29:06.695 NotebookApp] Uncaught exception POST /user/calebusadi-nbinteract-tutorial-llgpm44e/api/contents (65.183.154.21)
+    HTTPServerRequest(protocol='https', host='hub.gke2.mybinder.org', method='POST', uri='/user/calebusadi-nbinteract-tutorial-llgpm44e/api/contents', version='HTTP/1.1', remote_ip='65.183.154.21')
+    Traceback (most recent call last):
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/tornado/web.py", line 1704, in _execute
+        result = await result
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/tornado/gen.py", line 769, in run
+        yielded = self.gen.throw(*exc_info)  # type: ignore
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/notebook/services/contents/handlers.py", line 202, in post
+        yield self._new_untitled(path, type=type, ext=ext)
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/tornado/gen.py", line 762, in run
+        value = future.result()
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/tornado/gen.py", line 234, in wrapper
+        yielded = ctx_run(next, result)
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/notebook/services/contents/handlers.py", line 154, in _new_untitled
+        model = yield maybe_future(self.contents_manager.new_untitled(path=path, type=type, ext=ext))
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/notebook/services/contents/manager.py", line 397, in new_untitled
+        return self.new(model, path)
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/notebook/services/contents/manager.py", line 416, in new
+        model['content'] = new_notebook()
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/nbformat/v4/nbbase.py", line 164, in new_notebook
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/nbformat/v4/nbbase.py", line 39, in validate
+        if data is not None:
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/nbformat/validator.py", line 270, in validate
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/nbformat/validator.py", line 303, in iter_validate
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/nbformat/validator.py", line 57, in get_validator
+        version = current_nbformat
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/nbformat/validator.py", line 94, in _get_schema_json
+        def _get_schema_json(v):
+    FileNotFoundError: [Errno 2] No such file or directory: '/srv/conda/envs/notebook/lib/python3.7/site-packages/nbformat/v4/nbformat.v4.5.schema.json'
+[W 15:29:06.703 NotebookApp] Unhandled error
+[E 15:29:06.704 NotebookApp] {
+      "Cookie": "username-hub-gke2-mybinder-org=\"2|1:0|10:1616685638|30:username-hub-gke2-mybinder-org|44:MWNkNjdkZmE3Yzc2NDVjNzgxZDE0ODY1M2RhY2NlYTg=|4ac39bd75dd40bda6eda1c1d8a9c3fae8dec40b53484fb872b70a7602c246f14\"; _xsrf=2|4194aabc|fed14d08b696078fc829fc36fed1dd6d|1616685389",
+      "Sec-Gpc": "1",
+      "Dnt": "1",
+      "Accept-Language": "en-US,en;q=0.9,es;q=0.8",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Referer": "https://hub.gke2.mybinder.org/user/calebusadi-nbinteract-tutorial-llgpm44e/tree",
+      "Sec-Fetch-Dest": "empty",
+      "Sec-Fetch-Mode": "cors",
+      "Sec-Fetch-Site": "same-origin",
+      "Origin": "https://hub.gke2.mybinder.org",
+      "Content-Type": "application/json",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36",
+      "Sec-Ch-Ua-Mobile": "?0",
+      "X-Requested-With": "XMLHttpRequest",
+      "X-Xsrftoken": "2|4194aabc|fed14d08b696078fc829fc36fed1dd6d|1616685389",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Sec-Ch-Ua": "\"Google Chrome\";v=\"89\", \"Chromium\";v=\"89\", \";Not A Brand\";v=\"99\"",
+      "Content-Length": "19",
+      "X-Scheme": "https",
+      "X-Forwarded-Port": "443,80",
+      "X-Forwarded-Host": "hub.gke2.mybinder.org",
+      "X-Forwarded-Proto": "https,http",
+      "X-Forwarded-For": "65.183.154.21,::ffff:10.0.10.6",
+      "X-Real-Ip": "65.183.154.21",
+      "X-Request-Id": "4a5b8bf6f628c212f7d2c33136909351",
+      "Host": "hub.gke2.mybinder.org",
+      "Connection": "close"
+    }
+[E 15:29:06.704 NotebookApp] 500 POST /user/calebusadi-nbinteract-tutorial-llgpm44e/api/contents (65.183.154.21) 9.910000ms referer=https://hub.gke2.mybinder.org/user/calebusadi-nbinteract-tutorial-llgpm44e/tree
+[I 15:30:33.576 NotebookApp] Creating new notebook in 
+[E 15:30:33.577 NotebookApp] Uncaught exception POST /user/calebusadi-nbinteract-tutorial-llgpm44e/api/contents (65.183.154.21)
+    HTTPServerRequest(protocol='https', host='hub.gke2.mybinder.org', method='POST', uri='/user/calebusadi-nbinteract-tutorial-llgpm44e/api/contents', version='HTTP/1.1', remote_ip='65.183.154.21')
+    Traceback (most recent call last):
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/tornado/web.py", line 1704, in _execute
+        result = await result
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/tornado/gen.py", line 769, in run
+        yielded = self.gen.throw(*exc_info)  # type: ignore
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/notebook/services/contents/handlers.py", line 202, in post
+        yield self._new_untitled(path, type=type, ext=ext)
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/tornado/gen.py", line 762, in run
+        value = future.result()
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/tornado/gen.py", line 234, in wrapper
+        yielded = ctx_run(next, result)
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/notebook/services/contents/handlers.py", line 154, in _new_untitled
+        model = yield maybe_future(self.contents_manager.new_untitled(path=path, type=type, ext=ext))
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/notebook/services/contents/manager.py", line 397, in new_untitled
+        return self.new(model, path)
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/notebook/services/contents/manager.py", line 416, in new
+        model['content'] = new_notebook()
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/nbformat/v4/nbbase.py", line 164, in new_notebook
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/nbformat/v4/nbbase.py", line 39, in validate
+        if data is not None:
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/nbformat/validator.py", line 270, in validate
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/nbformat/validator.py", line 303, in iter_validate
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/nbformat/validator.py", line 57, in get_validator
+        version = current_nbformat
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/nbformat/validator.py", line 94, in _get_schema_json
+        def _get_schema_json(v):
+    FileNotFoundError: [Errno 2] No such file or directory: '/srv/conda/envs/notebook/lib/python3.7/site-packages/nbformat/v4/nbformat.v4.5.schema.json'
+[W 15:30:33.578 NotebookApp] Unhandled error
+[E 15:30:33.578 NotebookApp] {
+      "Cookie": "username-hub-gke2-mybinder-org=\"2|1:0|10:1616685638|30:username-hub-gke2-mybinder-org|44:MWNkNjdkZmE3Yzc2NDVjNzgxZDE0ODY1M2RhY2NlYTg=|4ac39bd75dd40bda6eda1c1d8a9c3fae8dec40b53484fb872b70a7602c246f14\"; _xsrf=2|4194aabc|fed14d08b696078fc829fc36fed1dd6d|1616685389",
+      "Sec-Gpc": "1",
+      "Dnt": "1",
+      "Accept-Language": "en-US,en;q=0.9,es;q=0.8",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Referer": "https://hub.gke2.mybinder.org/user/calebusadi-nbinteract-tutorial-llgpm44e/tree",
+      "Sec-Fetch-Dest": "empty",
+      "Sec-Fetch-Mode": "cors",
+      "Sec-Fetch-Site": "same-origin",
+      "Origin": "https://hub.gke2.mybinder.org",
+      "Content-Type": "application/json",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36",
+      "Sec-Ch-Ua-Mobile": "?0",
+      "X-Requested-With": "XMLHttpRequest",
+      "X-Xsrftoken": "2|4194aabc|fed14d08b696078fc829fc36fed1dd6d|1616685389",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Sec-Ch-Ua": "\"Google Chrome\";v=\"89\", \"Chromium\";v=\"89\", \";Not A Brand\";v=\"99\"",
+      "Content-Length": "19",
+      "X-Scheme": "https",
+      "X-Forwarded-Port": "443,80",
+      "X-Forwarded-Host": "hub.gke2.mybinder.org",
+      "X-Forwarded-Proto": "https,http",
+      "X-Forwarded-For": "65.183.154.21,::ffff:10.0.10.6",
+      "X-Real-Ip": "65.183.154.21",
+      "X-Request-Id": "80ec4c94f6ad342cc97e41f7544c6938",
+      "Host": "hub.gke2.mybinder.org",
+      "Connection": "close"
+    }
+[E 15:30:33.579 NotebookApp] 500 POST /user/calebusadi-nbinteract-tutorial-llgpm44e/api/contents (65.183.154.21) 3.410000ms referer=https://hub.gke2.mybinder.org/user/calebusadi-nbinteract-tutorial-llgpm44e/tree
+[I 15:31:04.615 NotebookApp] Creating new notebook in 
+[I 15:31:04.635 NotebookApp] Writing notebook-signing key to /home/jovyan/.local/share/jupyter/notebook_secret
+[I 15:31:08.654 NotebookApp] Kernel started: 22bafccc-be4f-4e27-8c2c-48164c9fc36a, name: python3
+[I 15:31:08.654 NotebookApp] Culling kernels with idle durations > 600 seconds at 60 second intervals ...
+[I 15:31:08.655 NotebookApp] Culling kernels even with connected clients
+[I 15:31:34.597 NotebookApp] Creating new file in 
+[I 15:33:09.738 NotebookApp] Saving file at /Untitled.ipynb
