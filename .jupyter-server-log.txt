@@ -156,3 +156,19 @@ TermSocket.open: Opened 1
 [I 15:31:34.597 NotebookApp] Creating new file in 
 [I 15:33:09.738 NotebookApp] Saving file at /Untitled.ipynb
 [I 15:35:09.933 NotebookApp] Saving file at /Untitled.ipynb
+[I 15:44:06.212 NotebookApp] Saving file at /Untitled.ipynb
+[W 15:44:08.656 NotebookApp] Culling 'idle' kernel 'python3' (22bafccc-be4f-4e27-8c2c-48164c9fc36a) with 1 connections due to 620 seconds of inactivity.
+[I 15:44:08.656 NotebookApp] Kernel shutdown: 22bafccc-be4f-4e27-8c2c-48164c9fc36a
+[W 15:44:08.947 NotebookApp] 410 DELETE /user/calebusadi-nbinteract-tutorial-llgpm44e/api/sessions/e998002a-06f9-4798-9740-184bc19b4bc9 (65.183.154.21): Kernel deleted before session
+[W 15:44:08.948 NotebookApp] Kernel deleted before session
+[W 15:44:08.948 NotebookApp] 410 DELETE /user/calebusadi-nbinteract-tutorial-llgpm44e/api/sessions/e998002a-06f9-4798-9740-184bc19b4bc9 (65.183.154.21) 1.830000ms referer=https://hub.gke2.mybinder.org/user/calebusadi-nbinteract-tutorial-llgpm44e/notebooks/Untitled.ipynb
+Websocket closed
+TermSocket.open: 1
+TermSocket.open: Opened 1
+[W 15:44:22.220 NotebookApp] Notebook Untitled.ipynb is not trusted
+[I 15:44:22.562 NotebookApp] Kernel started: 90349842-ddf9-4abe-ae2f-679979cb4e16, name: python3
+[I 15:44:31.459 NotebookApp] 302 GET /user/calebusadi-nbinteract-tutorial-llgpm44e/ (65.183.154.21) 0.780000ms
+[I 15:44:31.586 NotebookApp] Saving file at /Untitled.ipynb
+[W 15:44:31.586 NotebookApp] Notebook Untitled.ipynb is not trusted
+[I 15:44:31.651 NotebookApp] Starting buffering for 90349842-ddf9-4abe-ae2f-679979cb4e16:20378e5b9f954294b5049248cfa00899
+[I 15:44:35.824 NotebookApp] Kernel shutdown: 90349842-ddf9-4abe-ae2f-679979cb4e16
