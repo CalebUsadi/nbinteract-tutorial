@@ -207,3 +207,104 @@ Starting kernel event loops.
 [I 16:02:11.504 NotebookApp] New terminal with automatic name: 1
 TermSocket.open: 1
 TermSocket.open: Opened 1
+[I 16:03:55.822 NotebookApp] Saving file at /Untitled1.ipynb
+[I 16:09:55.512 NotebookApp] Saving file at /Untitled1.ipynb
+[I 16:11:55.404 NotebookApp] Saving file at /Untitled1.ipynb
+[I 16:13:56.001 NotebookApp] Saving file at /Untitled1.ipynb
+[I 16:15:55.917 NotebookApp] Saving file at /Untitled1.ipynb
+[I 16:16:36.247 NotebookApp] Saving file at /Untitled1.ipynb
+[I 16:16:43.696 NotebookApp] Saving file at /Untitled1.ipynb
+[I 16:17:55.774 NotebookApp] Saving file at /Untitled1.ipynb
+[W 16:27:55.072 NotebookApp] Culling 'idle' kernel 'julia-1.6' (9c668319-1362-43c7-8096-b2878c1cebc8) with 1 connections due to 603 seconds of inactivity.
+[I 16:27:55.073 NotebookApp] Kernel shutdown: 9c668319-1362-43c7-8096-b2878c1cebc8
+[I 16:38:53.830 NotebookApp] Saving file at /Untitled1.ipynb
+[W 16:38:57.682 NotebookApp] 404 DELETE /user/calebusadi-nbinteract-tutorial-ljv8dwd8/api/sessions/3acc3dd3-8a2d-4d37-b88c-2d4b004f34b0 (65.183.154.21): Session not found: session_id='3acc3dd3-8a2d-4d37-b88c-2d4b004f34b0'
+[W 16:38:57.683 NotebookApp] Session not found: session_id='3acc3dd3-8a2d-4d37-b88c-2d4b004f34b0'
+[W 16:38:57.683 NotebookApp] 404 DELETE /user/calebusadi-nbinteract-tutorial-ljv8dwd8/api/sessions/3acc3dd3-8a2d-4d37-b88c-2d4b004f34b0 (65.183.154.21) 1.940000ms referer=https://hub.gke2.mybinder.org/user/calebusadi-nbinteract-tutorial-ljv8dwd8/notebooks/Untitled1.ipynb?kernel_name=julia-1.6
+[I 16:39:11.991 NotebookApp] Kernel started: 545f70aa-f4a6-4616-916e-dae54278ab55, name: julia-1.6
+Starting kernel event loops.
+[I 16:39:25.917 NotebookApp] Adapting from protocol version 5.0 (kernel 545f70aa-f4a6-4616-916e-dae54278ab55) to 5.3 (client).
+[I 16:41:12.803 NotebookApp] Saving file at /Untitled1.ipynb
+[W 16:49:55.073 NotebookApp] Culling 'idle' kernel 'julia-1.6' (545f70aa-f4a6-4616-916e-dae54278ab55) with 1 connections due to 605 seconds of inactivity.
+[I 16:49:55.074 NotebookApp] Kernel shutdown: 545f70aa-f4a6-4616-916e-dae54278ab55
+[W 17:05:07.469 NotebookApp] 404 POST /user/calebusadi-nbinteract-tutorial-ljv8dwd8/api/kernels/545f70aa-f4a6-4616-916e-dae54278ab55/interrupt (65.183.154.21): Kernel does not exist: 545f70aa-f4a6-4616-916e-dae54278ab55
+[W 17:05:07.469 NotebookApp] Kernel does not exist: 545f70aa-f4a6-4616-916e-dae54278ab55
+[W 17:05:07.470 NotebookApp] 404 POST /user/calebusadi-nbinteract-tutorial-ljv8dwd8/api/kernels/545f70aa-f4a6-4616-916e-dae54278ab55/interrupt (65.183.154.21) 2.530000ms referer=https://hub.gke2.mybinder.org/user/calebusadi-nbinteract-tutorial-ljv8dwd8/notebooks/Untitled1.ipynb
+[I 17:05:12.161 NotebookApp] Saving file at /Untitled1.ipynb
+[I 17:05:19.942 NotebookApp] Saving file at /Untitled1.ipynb
+[E 17:05:32.433 NotebookApp] Exception restarting kernel
+    Traceback (most recent call last):
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/notebook/services/kernels/handlers.py", line 83, in post
+        yield maybe_future(km.restart_kernel(kernel_id))
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/tornado/gen.py", line 762, in run
+        value = future.result()
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/notebook/services/kernels/kernelmanager.py", line 313, in restart_kernel
+        self._check_kernel_id(kernel_id)
+      File "/srv/conda/envs/notebook/lib/python3.7/site-packages/notebook/services/kernels/kernelmanager.py", line 394, in _check_kernel_id
+        raise web.HTTPError(404, u'Kernel does not exist: %s' % kernel_id)
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: 545f70aa-f4a6-4616-916e-dae54278ab55)
+[E 17:05:32.440 NotebookApp] {
+      "Cookie": "username-hub-gke2-mybinder-org=\"2|1:0|10:1616688093|30:username-hub-gke2-mybinder-org|44:MzNiMjQwZGExYWNjNGMzMmE2NjM4OGM4ZTU3MDViNzU=|7d39e934b8bc8f8b46e1a8e18ea222728726791ee8c60c03739d2fbc93211d40\"; _xsrf=2|4194aabc|fed14d08b696078fc829fc36fed1dd6d|1616685389",
+      "Sec-Gpc": "1",
+      "Dnt": "1",
+      "Accept-Language": "en-US,en;q=0.9,es;q=0.8",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Referer": "https://hub.gke2.mybinder.org/user/calebusadi-nbinteract-tutorial-ljv8dwd8/notebooks/Untitled1.ipynb",
+      "Sec-Fetch-Dest": "empty",
+      "Sec-Fetch-Mode": "cors",
+      "Sec-Fetch-Site": "same-origin",
+      "Origin": "https://hub.gke2.mybinder.org",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36",
+      "Sec-Ch-Ua-Mobile": "?0",
+      "X-Requested-With": "XMLHttpRequest",
+      "X-Xsrftoken": "2|4194aabc|fed14d08b696078fc829fc36fed1dd6d|1616685389",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "Sec-Ch-Ua": "\"Google Chrome\";v=\"89\", \"Chromium\";v=\"89\", \";Not A Brand\";v=\"99\"",
+      "Content-Length": "0",
+      "X-Scheme": "https",
+      "X-Forwarded-Port": "443,80",
+      "X-Forwarded-Host": "hub.gke2.mybinder.org",
+      "X-Forwarded-Proto": "https,http",
+      "X-Forwarded-For": "65.183.154.21,::ffff:10.0.15.121",
+      "X-Real-Ip": "65.183.154.21",
+      "X-Request-Id": "6295b8763a9eadb53240ff0d70550ee0",
+      "Host": "hub.gke2.mybinder.org",
+      "Connection": "close"
+    }
+[E 17:05:32.440 NotebookApp] 500 POST /user/calebusadi-nbinteract-tutorial-ljv8dwd8/api/kernels/545f70aa-f4a6-4616-916e-dae54278ab55/restart (65.183.154.21) 8.440000ms referer=https://hub.gke2.mybinder.org/user/calebusadi-nbinteract-tutorial-ljv8dwd8/notebooks/Untitled1.ipynb
+[W 17:05:32.525 NotebookApp] 404 DELETE /user/calebusadi-nbinteract-tutorial-ljv8dwd8/api/sessions/c66ee864-74d5-4584-8a6a-7037fd7f7d25 (65.183.154.21): Session not found: session_id='c66ee864-74d5-4584-8a6a-7037fd7f7d25'
+[W 17:05:32.526 NotebookApp] Session not found: session_id='c66ee864-74d5-4584-8a6a-7037fd7f7d25'
+[W 17:05:32.526 NotebookApp] 404 DELETE /user/calebusadi-nbinteract-tutorial-ljv8dwd8/api/sessions/c66ee864-74d5-4584-8a6a-7037fd7f7d25 (65.183.154.21) 2.330000ms referer=https://hub.gke2.mybinder.org/user/calebusadi-nbinteract-tutorial-ljv8dwd8/notebooks/Untitled1.ipynb
+[I 17:05:32.631 NotebookApp] Kernel started: de7ed304-f4be-4da8-9767-4106812ee06e, name: julia-1.6
+Starting kernel event loops.
+[I 17:05:48.858 NotebookApp] Adapting from protocol version 5.0 (kernel de7ed304-f4be-4da8-9767-4106812ee06e) to 5.3 (client).
+[I 17:07:12.784 NotebookApp] Saving file at /Untitled1.ipynb
+[I 17:07:27.939 NotebookApp] Creating new directory in 
+[I 17:07:57.290 NotebookApp] Uploading file to /Data/ThinFilm.csv
+[I 17:07:58.465 NotebookApp] Uploading file to /Data/ThickFilm.csv
+[I 17:07:59.462 NotebookApp] Uploading file to /Data/BlankCSV.csv
+[I 17:08:43.640 NotebookApp] Saving file at /Untitled1.ipynb
+[I 17:09:05.482 NotebookApp] Saving file at /Untitled1.ipynb
+[I 17:09:12.060 NotebookApp] Saving file at /Untitled1.ipynb
+[W 17:09:30.508 NotebookApp] 404 GET /user/calebusadi-nbinteract-tutorial-ljv8dwd8/assetserver/28a6b57e09101814117543d9c1858506e97b921e-style.css (65.183.154.21) 23.920000ms referer=https://hub.gke2.mybinder.org/user/calebusadi-nbinteract-tutorial-ljv8dwd8/notebooks/Untitled1.ipynb
+[W 17:09:30.510 NotebookApp] 404 GET /user/calebusadi-nbinteract-tutorial-ljv8dwd8/assetserver/0c16fe4bfa2245bee2c4c0286b1bf1aeefee8838-bulma_confined.min.css (65.183.154.21) 24.700000ms referer=https://hub.gke2.mybinder.org/user/calebusadi-nbinteract-tutorial-ljv8dwd8/notebooks/Untitled1.ipynb
+[W 17:09:30.514 NotebookApp] 404 GET /user/calebusadi-nbinteract-tutorial-ljv8dwd8/assetserver/11e360380f71e3b83dd1af49dff763c0a910f09f-knockout.js (65.183.154.21) 3.200000ms referer=https://hub.gke2.mybinder.org/user/calebusadi-nbinteract-tutorial-ljv8dwd8/notebooks/Untitled1.ipynb
+[W 17:09:30.516 NotebookApp] 404 GET /user/calebusadi-nbinteract-tutorial-ljv8dwd8/assetserver/8d0056a5d630d14527b13e861104d7faee9c2525-all.js (65.183.154.21) 3.710000ms referer=https://hub.gke2.mybinder.org/user/calebusadi-nbinteract-tutorial-ljv8dwd8/notebooks/Untitled1.ipynb
+[W 17:09:30.517 NotebookApp] 404 GET /user/calebusadi-nbinteract-tutorial-ljv8dwd8/assetserver/7d8efdd25d92e27c3c4178cf6ac3a23c05afc2a5-knockout_punches.js (65.183.154.21) 4.250000ms referer=https://hub.gke2.mybinder.org/user/calebusadi-nbinteract-tutorial-ljv8dwd8/notebooks/Untitled1.ipynb
+[W 17:09:32.541 NotebookApp] 404 GET /user/calebusadi-nbinteract-tutorial-ljv8dwd8/assetserver/28a6b57e09101814117543d9c1858506e97b921e-style.css (65.183.154.21) 3.540000ms referer=https://hub.gke2.mybinder.org/user/calebusadi-nbinteract-tutorial-ljv8dwd8/notebooks/Untitled1.ipynb
+[W 17:09:32.543 NotebookApp] 404 GET /user/calebusadi-nbinteract-tutorial-ljv8dwd8/assetserver/0c16fe4bfa2245bee2c4c0286b1bf1aeefee8838-bulma_confined.min.css (65.183.154.21) 4.100000ms referer=https://hub.gke2.mybinder.org/user/calebusadi-nbinteract-tutorial-ljv8dwd8/notebooks/Untitled1.ipynb
+[W 17:10:36.602 NotebookApp] 404 GET /user/calebusadi-nbinteract-tutorial-ljv8dwd8/assetserver/28a6b57e09101814117543d9c1858506e97b921e-style.css (65.183.154.21) 1.710000ms referer=https://hub.gke2.mybinder.org/user/calebusadi-nbinteract-tutorial-ljv8dwd8/notebooks/Untitled1.ipynb
+[W 17:10:36.604 NotebookApp] 404 GET /user/calebusadi-nbinteract-tutorial-ljv8dwd8/assetserver/0c16fe4bfa2245bee2c4c0286b1bf1aeefee8838-bulma_confined.min.css (65.183.154.21) 1.320000ms referer=https://hub.gke2.mybinder.org/user/calebusadi-nbinteract-tutorial-ljv8dwd8/notebooks/Untitled1.ipynb
+[I 17:11:12.053 NotebookApp] Saving file at /Untitled1.ipynb
+[I 17:11:24.667 NotebookApp] EOF on FD 32; stopping reading
+[I 17:11:24.768 NotebookApp] Terminal 1 closed
+Websocket closed
+[W 17:12:17.263 NotebookApp] 404 GET /user/calebusadi-nbinteract-tutorial-ljv8dwd8/assetserver/28a6b57e09101814117543d9c1858506e97b921e-style.css (65.183.154.21) 2.480000ms referer=https://hub.gke2.mybinder.org/user/calebusadi-nbinteract-tutorial-ljv8dwd8/notebooks/Untitled1.ipynb
+[W 17:12:17.265 NotebookApp] 404 GET /user/calebusadi-nbinteract-tutorial-ljv8dwd8/assetserver/0c16fe4bfa2245bee2c4c0286b1bf1aeefee8838-bulma_confined.min.css (65.183.154.21) 3.190000ms referer=https://hub.gke2.mybinder.org/user/calebusadi-nbinteract-tutorial-ljv8dwd8/notebooks/Untitled1.ipynb
+[W 17:12:30.916 NotebookApp] 404 GET /user/calebusadi-nbinteract-tutorial-ljv8dwd8/static/notebook/js/main.min.js.map (65.183.154.21) 1.930000ms referer=None
+[W 17:12:44.461 NotebookApp] 404 GET /user/calebusadi-nbinteract-tutorial-ljv8dwd8/assetserver/28a6b57e09101814117543d9c1858506e97b921e-style.css (65.183.154.21) 2.590000ms referer=https://hub.gke2.mybinder.org/user/calebusadi-nbinteract-tutorial-ljv8dwd8/notebooks/Untitled1.ipynb
+[W 17:12:44.464 NotebookApp] 404 GET /user/calebusadi-nbinteract-tutorial-ljv8dwd8/assetserver/0c16fe4bfa2245bee2c4c0286b1bf1aeefee8838-bulma_confined.min.css (65.183.154.21) 2.120000ms referer=https://hub.gke2.mybinder.org/user/calebusadi-nbinteract-tutorial-ljv8dwd8/notebooks/Untitled1.ipynb
+[I 17:13:12.151 NotebookApp] Saving file at /Untitled1.ipynb
+[I 17:14:58.163 NotebookApp] New terminal with automatic name: 1
+TermSocket.open: 1
+TermSocket.open: Opened 1
