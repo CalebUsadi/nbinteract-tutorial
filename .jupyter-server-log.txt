@@ -308,3 +308,49 @@ Websocket closed
 [I 17:14:58.163 NotebookApp] New terminal with automatic name: 1
 TermSocket.open: 1
 TermSocket.open: Opened 1
+[I 16:22:32.494 NotebookApp] Writing notebook server cookie secret to /srv/conda/envs/notebook/share/jupyter/runtime/notebook_cookie_secret
+[W 2021-03-27 16:22:33.715 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-03-27 16:22:33.716 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-03-27 16:22:33.716 LabApp] 'base_url' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-03-27 16:22:33.716 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-03-27 16:22:33.716 LabApp] 'trust_xheaders' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-03-27 16:22:33.716 LabApp] 'allow_origin' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-03-27 16:22:33.716 LabApp] 'allow_origin_pat' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-03-27 16:22:33.717 LabApp] 'extra_template_paths' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2021-03-27 16:22:33.717 LabApp] 'jinja_template_vars' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2021-03-27 16:22:33.717 LabApp] 'shutdown_no_activity_timeout' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-03-27 16:22:33.717 LabApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2021-03-27 16:22:33.717 LabApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2021-03-27 16:22:33.724 LabApp] JupyterLab extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/jupyterlab
+[I 2021-03-27 16:22:33.724 LabApp] JupyterLab application directory is /srv/conda/envs/notebook/share/jupyter/lab
+[I 16:22:33.737 NotebookApp] nteract extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/nteract_on_jupyter
+[I 16:22:33.740 NotebookApp] Will shut down after 600 seconds with no kernels or terminals.
+[I 16:22:33.741 NotebookApp] Serving notebooks from local directory: /home/jovyan
+[I 16:22:33.741 NotebookApp] Jupyter Notebook 6.2.0 is running at:
+[I 16:22:33.741 NotebookApp] http://jupyter-calebusadi-2dnbinteract-2dtutorial-2db9z267ee:8888/user/calebusadi-nbinteract-tutorial-b9z267ee/?token=...
+[I 16:22:33.741 NotebookApp]  or http://127.0.0.1:8888/user/calebusadi-nbinteract-tutorial-b9z267ee/?token=...
+[I 16:22:33.741 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 16:22:33.747 NotebookApp] No web browser found: could not locate runnable browser.
+[I 16:22:35.922 NotebookApp] 302 GET /user/calebusadi-nbinteract-tutorial-b9z267ee/ (10.0.51.78) 1.200000ms
+[I 16:22:39.606 NotebookApp] 302 GET /user/calebusadi-nbinteract-tutorial-b9z267ee/?token=zSWrRs3bSZyxi5rN18vdOg (65.183.154.21) 0.900000ms
+[I 16:22:45.370 NotebookApp] Writing notebook-signing key to /srv/conda/envs/notebook/share/jupyter/notebook_secret
+[W 16:22:45.373 NotebookApp] Notebook Untitled1.ipynb is not trusted
+[W 16:22:45.391 NotebookApp] Notebook Untitled.ipynb is not trusted
+[I 16:22:45.641 NotebookApp] Kernel started: 71ff0763-2188-4bb4-bb88-20ebe9b3ca26, name: python3
+[I 16:22:45.641 NotebookApp] Culling kernels with idle durations > 600 seconds at 60 second intervals ...
+[I 16:22:45.641 NotebookApp] Culling kernels even with connected clients
+[I 16:22:45.676 NotebookApp] Kernel started: dd8e201b-b569-4b1d-b585-e8ce0d5c30c9, name: julia-1.6
+[W 16:22:46.191 NotebookApp] 404 GET /user/calebusadi-nbinteract-tutorial-b9z267ee/nbextensions/webio-jupyter-notebook.js?v=20210327162232 (65.183.154.21) 19.310000ms referer=https://hub.gke2.mybinder.org/user/calebusadi-nbinteract-tutorial-b9z267ee/notebooks/Untitled.ipynb
+[W 16:22:46.276 NotebookApp] 404 GET /user/calebusadi-nbinteract-tutorial-b9z267ee/nbextensions/webio-jupyter-notebook.js?v=20210327162232 (65.183.154.21) 7.090000ms referer=https://hub.gke2.mybinder.org/user/calebusadi-nbinteract-tutorial-b9z267ee/notebooks/Untitled1.ipynb
+[W 16:22:47.067 NotebookApp] 404 GET /user/calebusadi-nbinteract-tutorial-b9z267ee/nbextensions/widgets/notebook/js/extension.js?v=20210327162232 (65.183.154.21) 2.340000ms referer=https://hub.gke2.mybinder.org/user/calebusadi-nbinteract-tutorial-b9z267ee/notebooks/Untitled.ipynb
+[W 16:22:47.166 NotebookApp] 404 GET /user/calebusadi-nbinteract-tutorial-b9z267ee/nbextensions/widgets/notebook/js/extension.js?v=20210327162232 (65.183.154.21) 53.590000ms referer=https://hub.gke2.mybinder.org/user/calebusadi-nbinteract-tutorial-b9z267ee/notebooks/Untitled1.ipynb
+Starting kernel event loops.
+[I 16:23:02.013 NotebookApp] Adapting from protocol version 5.0 (kernel dd8e201b-b569-4b1d-b585-e8ce0d5c30c9) to 5.3 (client).
+[W 16:23:16.330 NotebookApp] Notebook Untitled1.ipynb is not trusted
+[I 16:23:16.769 NotebookApp] Adapting from protocol version 5.0 (kernel dd8e201b-b569-4b1d-b585-e8ce0d5c30c9) to 5.3 (client).
+[W 16:23:17.105 NotebookApp] 404 GET /user/calebusadi-nbinteract-tutorial-b9z267ee/nbextensions/webio-jupyter-notebook.js?v=20210327162232 (65.183.154.21) 2.230000ms referer=https://hub.gke2.mybinder.org/user/calebusadi-nbinteract-tutorial-b9z267ee/notebooks/Untitled1.ipynb
+[I 16:23:17.487 NotebookApp] Starting buffering for 71ff0763-2188-4bb4-bb88-20ebe9b3ca26:1b5de648f58e4eea8271e68e9f11820b
+[W 16:23:18.043 NotebookApp] 404 GET /user/calebusadi-nbinteract-tutorial-b9z267ee/nbextensions/widgets/notebook/js/extension.js?v=20210327162232 (65.183.154.21) 2.080000ms referer=https://hub.gke2.mybinder.org/user/calebusadi-nbinteract-tutorial-b9z267ee/notebooks/Untitled1.ipynb
+[I 16:23:28.933 NotebookApp] New terminal with automatic name: 1
+TermSocket.open: 1
+TermSocket.open: Opened 1
