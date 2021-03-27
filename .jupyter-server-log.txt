@@ -354,3 +354,8 @@ Starting kernel event loops.
 [I 16:23:28.933 NotebookApp] New terminal with automatic name: 1
 TermSocket.open: 1
 TermSocket.open: Opened 1
+[W 16:28:01.261 NotebookApp] Notebook Untitled.ipynb is not trusted
+[W 16:28:01.331 NotebookApp] 404 GET /user/calebusadi-nbinteract-tutorial-b9z267ee/nbextensions/webio-jupyter-notebook.js?v=20210327162232 (65.183.154.21) 2.280000ms referer=https://hub.gke2.mybinder.org/user/calebusadi-nbinteract-tutorial-b9z267ee/notebooks/Untitled.ipynb
+[W 16:28:01.617 NotebookApp] 404 GET /user/calebusadi-nbinteract-tutorial-b9z267ee/nbextensions/widgets/notebook/js/extension.js?v=20210327162232 (65.183.154.21) 1.580000ms referer=https://hub.gke2.mybinder.org/user/calebusadi-nbinteract-tutorial-b9z267ee/notebooks/Untitled.ipynb
+[I 16:28:12.327 NotebookApp] Saving file at /Untitled.ipynb
+[W 16:28:12.327 NotebookApp] Notebook Untitled.ipynb is not trusted
